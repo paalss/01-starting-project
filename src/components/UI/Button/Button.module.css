@@ -9,12 +9,6 @@
   cursor: pointer;
 }
 
-@media (min-width: 768px) {
-  .button {
-    width: auto;
-  }
-}
-
 .button:focus {
   outline: none;
 }
@@ -26,7 +20,14 @@
   box-shadow: 0 0 8px rgba(0, 0, 0, 0.26);
 }
 
+@media (min-width: 768px) {
+  .button {
+    width: auto;
+  }
+}
+
 /*
+styled-components alternativ i js
 import styled from "styled-components";
 
 const Button = styled.button`
